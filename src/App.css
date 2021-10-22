@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #cad6ec;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+body {
+  background: linear-gradient(45deg, rgb(138, 138, 243), rgb(245, 166, 166));
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  
+  padding: 0 19px;
+}
+
+header {
+  background-color: white;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.logo{
+  color: rgb(247, 34, 34);
+  
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.logo{
+  font-weight: 5px;
+  font-display: bold;
+  color: rgb(252, 53, 53);
+}
+
+header button{
+  position: relative;
+  left: 65vw;
+  border-radius: 10px;
+  box-shadow: 5px 5px #eaf393;
+  padding: 20px;
+  width: 10vw;
+  border-color: rgb(172, 252, 248);
+}
+
+.button:hover {background-color: rgb(192, 192, 192)}
+
+.button:active {
+background-color: silver;
+box-shadow: 5px 5px rgb(231, 185, 243);
+transform: translateY(4px);
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+
+ul{
+  list-style: none;
+}
+
+.details{
+  color: rgb(248, 12, 12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 365px;
+  border: 2px solid rgb(248, 176, 200);
+  border-radius: 20px;
+  background: rgb(153, 243, 250);
+  margin-bottom: 80px;
+  box-shadow: 20px 20px rgba(0, 0, 0, 0.342);
+  
+}
+
+.one
+{
+  font-size:20px;
+  font-family: forte;
+  color: red;
+}
+
+.details:hover{
+box-shadow: 20px 20px grey;
+background: rgb(241, 240, 240);
+cursor: pointer;
+}
+
+#name{
+padding-top: 100px;
+position: relative;
+left: 100px;
+margin-top: 30px;
+}
+
+#email{
+position: relative;
+right: 150px;
+}
+
+.details li{
+display: flex;
+flex-direction: column;
+}
+
+.about{
+  border-radius: 12px;
+  padding-bottom: 55px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 26px;
+  
+}
+
+img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+  border-radius: 30%;
+  margin-left: 20px;
+}
+
+
+
+
+.App-link {
+  color: #71e710;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
